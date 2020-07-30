@@ -1,6 +1,12 @@
-add(1, 80) {
-  return 1 + 80
+add(a, b) {
+  return a + b
 }
-subtract(60 - 40)
-multiply(2 * 3.4)
-divide(5.0 / 2.5)
+subtract(a, b) {
+  return a - b
+}
+multiply(a, b) {
+  return a * b
+}
+divide(a, b) {
+  return a / b
+}
